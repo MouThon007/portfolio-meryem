@@ -1,0 +1,274 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Compétences - Espace Jury</title><link rel="stylesheet" href="../css/style.css"></head><body data-protected="true">
+<nav class="navbar"><div class="container navwrap"><a class="logo" href="../index.html">Portfolio BTS SIO SISR</a><div class="links"><a href="../index.html">Accueil</a><a href="profil.html">Profil</a><a class="active" href="jury.html">Espace Jury</a><a href="certifications.html">Certifications</a><a href="projets.html">Projets</a><a href="veille.html">Veille</a></div></div></nav>
+<section class="section"><div class="container">
+  <div class="topline"><div><h1>Compétences BTS SIO SISR</h1><p class="muted">Une ou plusieurs preuves peuvent être ajoutées pour chaque compétence.</p></div><button class="btn secondary" onclick="logoutJury()">Déconnexion</button></div>
+  <div class="progress-box"><strong>Progression des preuves</strong><div class="progress-bar"><div class="progress-fill"></div></div><p class="muted">À ajuster au fur et à mesure de l’année.</p></div>
+  <input id="search" class="search" onkeyup="filterSkills()" placeholder="Rechercher une compétence...">
+  <div class="group open"><div class="group-title"><span>Gérer le patrimoine informatique</span><span>+</span></div><div class="group-content">
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Recenser et identifier les ressources numériques</h3><p>Le recensement du patrimoine informatique est exhaustif et réalisé au moyen d’un outil de gestion des actifs.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/patrimoine/glpi-inventaire.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/patrimoine/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Exploiter des référentiels, normes et standards</h3><p>Les référentiels, normes et standards sont mobilisés de façon pertinente.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/patrimoine/referentiels.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/patrimoine/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Mettre en place et vérifier les niveaux d’habilitation</h3><p>Les droits mis en place correspondent aux habilitations des acteurs.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/patrimoine/active-directory-habilitations.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/patrimoine/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Vérifier les conditions de continuité d’un service informatique</h3><p>Les conditions de continuité et de reprise sont vérifiées.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/patrimoine/continuite-service.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/patrimoine/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Gérer des sauvegardes</h3><p>Les sauvegardes sont réalisées conformément au plan de sauvegarde et les restaurations sont testées.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/patrimoine/sauvegardes.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/patrimoine/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Vérifier le respect des règles d’utilisation des ressources numériques</h3><p>Les écarts par rapport aux règles d’utilisation sont détectés et signalés.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/patrimoine/regles-utilisation.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/patrimoine/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div></div></div><div class="group "><div class="group-title"><span>Répondre aux incidents et aux demandes d’assistance et d’évolution</span><span>+</span></div><div class="group-content">
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Collecter, suivre et orienter des demandes</h3><p>Les demandes sont prises en compte, diagnostiquées et orientées correctement.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/incidents/tickets-glpi.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/incidents/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Traiter des demandes concernant les services réseau et système</h3><p>La réponse est conforme à la procédure et adaptée à l’utilisateur.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/incidents/support-reseau-systeme.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/incidents/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Traiter des demandes concernant les applications</h3><p>La méthode de diagnostic est adéquate et une solution est mise en œuvre.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/incidents/support-application.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/incidents/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div></div></div><div class="group "><div class="group-title"><span>Développer la présence en ligne de l’organisation</span><span>+</span></div><div class="group-content">
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Participer à la valorisation de l’image de l’organisation</h3><p>L’image de l’organisation est conforme aux attentes et valorisée.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/presence/valorisation-image.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/presence/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Référencer les services en ligne et mesurer leur visibilité</h3><p>Les mentions légales sont accessibles et la visibilité est satisfaisante.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/presence/referencement.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/presence/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Participer à l’évolution d’un site Web</h3><p>Le site Web évolue conformément au besoin exprimé.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/presence/evolution-site.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/presence/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div></div></div><div class="group "><div class="group-title"><span>Travailler en mode projet</span><span>+</span></div><div class="group-content">
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Analyser les objectifs et les modalités d’organisation d’un projet</h3><p>Les objectifs et modalités d’organisation sont explicités.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/projet/analyse-projet.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/projet/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Planifier les activités</h3><p>Les activités personnelles sont planifiées selon une méthodologie donnée.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/projet/planning-projet.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/projet/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Évaluer les indicateurs de suivi et analyser les écarts</h3><p>Un compte rendu clair est réalisé et les écarts sont justifiés.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/projet/suivi-projet.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/projet/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div></div></div><div class="group "><div class="group-title"><span>Mettre à disposition des utilisateurs un service informatique</span><span>+</span></div><div class="group-content">
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Réaliser les tests d’intégration et d’acceptation</h3><p>Des tests pertinents sont rédigés et effectués.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/service/tests-service.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/service/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Déployer un service</h3><p>Le service déployé est opérationnel et donne satisfaction à l’utilisateur.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/service/deploiement-service.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/service/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Accompagner les utilisateurs dans la mise en place d’un service</h3><p>Un support d’information est disponible et l’accompagnement est défini.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/service/accompagnement.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/service/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div></div></div><div class="group "><div class="group-title"><span>Organiser son développement professionnel</span><span>+</span></div><div class="group-content">
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Mettre en place son environnement d’apprentissage personnel</h3><p>L’environnement d’apprentissage personnel est délimité et expliqué.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/professionnel/environnement-apprentissage.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/professionnel/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Mettre en œuvre des outils et stratégies de veille informationnelle</h3><p>La veille est régulière et renforce les compétences.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/professionnel/veille-informationnelle.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/professionnel/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Gérer son identité professionnelle</h3><p>L’identité professionnelle est pertinente et visible.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/professionnel/identite-professionnelle.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/professionnel/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-head">
+            <div><h3>Développer son projet professionnel</h3><p>Les besoins de formation sont identifiés.</p></div>
+            <span class="level">À compléter</span>
+          </div>
+          <div class="proofs">
+            <a class="proof" href="../preuves/professionnel/projet-professionnel.pdf" target="_blank">📄 Voir la preuve</a>
+            <!-- AJOUTER UNE PREUVE DANS LA MÊME COMPÉTENCE :
+            <a class="proof" href="../preuves/professionnel/nom-du-fichier.pdf" target="_blank">📄 Nom de la preuve</a>
+            -->
+          </div>
+        </div></div></div>
+  <div class="card"><h3>Comment ajouter une preuve ?</h3><p>1. Mets ton PDF dans le bon dossier. 2. Ouvre cette page dans VS Code. 3. Copie une ligne de preuve dans la compétence concernée.</p><div class="note-code">&lt;a class="proof" href="../preuves/patrimoine/mon-fichier.pdf" target="_blank"&gt;📄 Mon fichier&lt;/a&gt;</div></div>
+</div></section>
+<footer class="footer">© 2026 - Portfolio BTS SIO SISR</footer><script src="../js/script.js"></script></body></html>
